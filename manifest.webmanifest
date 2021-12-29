@@ -3,7 +3,7 @@
     "background_color": "#210002",
     "display": "standalone",
     "scope": "https://siddharthasharma04.github.io/tic-tac-toe/",
-    "start_url": "index.html",
+    "start_url": "https://siddharthasharma04.github.io/tic-tac-toe/",
     "name": "Tic-Tac-Toe",
     "short_name": "Tic-Tac-Toe",
     "description": "Progressive Web App for Tic Tac Toe game",
