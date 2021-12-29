@@ -33,7 +33,13 @@
     <div id="root"></div>
   </div>
   
-  <script src="generate-sw.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+     window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js');
+     });
+    }
+  </script>
 </body>
 
 </html>
