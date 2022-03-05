@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.main-wrapper {
+  max-width: 35rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 0.25rem double rgb(40, 40, 40);
+  background-color: rgb(53, 255, 218);
+  border-radius: 0.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
